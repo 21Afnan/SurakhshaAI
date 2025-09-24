@@ -1,0 +1,26 @@
+# Core deep learning framework (CUDA 12.7)
+#torch==2.2.2+cu127          # PyTorch with CUDA 12.7 support
+#torchvision==0.17.2+cu127   # Image transformations, pretrained CNNs for CUDA 12.7
+#torchaudio==2.2.2+cu127     # Optional if audio support is needed
+
+# YOLOv8 (Ultralytics) for object detection
+ultralytics==8.3.0           # YOLOv8 framework (weapons + crowd detection)
+
+# Computer vision utilities
+opencv-python==4.10.0.84     # OpenCV for video capture, frame processing
+opencv-python-headless==4.10.0.84  # Headless OpenCV for server/Docker (no GUI)
+
+# Data processing
+numpy==1.26.4                # Numerical operations
+pandas==2.2.2                # Data handling, logs, annotations
+
+# Visualization / dashboards
+matplotlib==3.9.2            # Graphs, confusion matrix, loss curves
+streamlit==1.38.0            # Real-time web dashboard for CCTV analytics
+
+# Machine learning (for anomaly detection later if needed)
+scikit-learn==1.5.1          # Autoencoders, anomaly scoring, ML utilities
+
+# Utilities
+tqdm==4.66.5                 # Progress bars for training loops
+pyyaml==6.0.2                # YOLO config parsing (data.yaml)
